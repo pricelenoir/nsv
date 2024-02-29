@@ -1,5 +1,5 @@
 __pycache__/
-/jgraph/*.pdf
-/jgraph/*.jpg
-/jgraph/*.jgr
-/jgraph/*.eps
+jgraph/*.pdf
+jgraph/*.jpg
+jgraph/*.jgr
+jgraph/*.eps
