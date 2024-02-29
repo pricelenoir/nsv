@@ -1,3 +1,0 @@
-newgraph
-
-newline pts shell : echo "" | awk '{ for (i = 0; i < 3; i+= .1) print i, i*i }'
