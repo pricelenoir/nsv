@@ -1,3 +1,5 @@
 __pycache__/
-obj/
-bin/
+/jgraph/*.pdf
+/jgraph/*.jpg
+/jgraph/*.jgr
+/jgraph/*.eps
