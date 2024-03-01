@@ -3,7 +3,7 @@
 PACKAGE_NAME="nba_api"
 
 # Check if nba_api is installed
-if ! pip show "$PACKAGE_NAME" >/dev/null 2>&1; then
+if ! pip3 show "$PACKAGE_NAME" >/dev/null 2>&1; then
     echo "Package $PACKAGE_NAME is not installed."
     exit 1
 fi
