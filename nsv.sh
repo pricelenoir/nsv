@@ -44,4 +44,4 @@ if [ -e "$output_filename" ]; then
     exit 1
 fi
 
-python3 main.py "$firstname" "$lastname" "$startseason" "$endseason" | jgraph | convert - "$output_filename"
+python3 main.py "$firstname" "$lastname" "$startseason" "$endseason" | jgraph | convert -density 300 -quality 100 - "$output_filename"
