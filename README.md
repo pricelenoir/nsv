@@ -21,7 +21,7 @@ The tar file is available at [Dr. Plank's website](https://web.eecs.utk.edu/~jpl
 #### 2. Install dependencies
 This project uses the `nba_api` library which requires `Python 3.7+`.
 ```bash
-pip install nba_api
+pip3 install nba_api
 ```
 
 #### 3. Use Makefile
